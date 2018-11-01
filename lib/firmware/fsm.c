@@ -37,6 +37,7 @@
 #include "keepkey/firmware/app_layout.h"
 #include "keepkey/firmware/coins.h"
 #include "keepkey/firmware/crypto.h"
+#include "keepkey/firmware/eos.h"
 #include "keepkey/firmware/ethereum.h"
 #include "keepkey/firmware/exchange.h"
 #include "keepkey/firmware/fsm.h"
@@ -64,6 +65,7 @@
 #include "trezor/crypto/secp256k1.h"
 
 #include "messages.pb.h"
+#include "messages-eos.pb.h"
 
 #include <stdio.h>
 
@@ -276,3 +278,4 @@ void fsm_msgClearSession(ClearSession *msg)
 #include "fsm_msg_ethereum.h"
 #include "fsm_msg_crypto.h"
 #include "fsm_msg_debug.h"
+#include "fsm_msg_eos.h"
