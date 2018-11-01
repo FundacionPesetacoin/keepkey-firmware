@@ -3,6 +3,7 @@ set(sources
     app_layout.c
     coins.c
     crypto.c
+    eos.c
     ethereum.c
     exchange.c
     fsm.c
